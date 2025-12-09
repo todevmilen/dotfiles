@@ -22,6 +22,7 @@ return {
         "yaml",
         "html",
         "css",
+        "go",
         "prisma",
         "markdown",
         "markdown_inline",

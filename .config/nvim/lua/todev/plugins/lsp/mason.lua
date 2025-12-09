@@ -27,6 +27,7 @@ return {
     mason_lspconfig.setup({
       -- list of servers for mason to install
       ensure_installed = {
+        "gopls",
         "ts_ls",
         "html",
         "cssls",
@@ -34,7 +35,6 @@ return {
         "svelte",
         "lua_ls",
         "graphql",
-        "gopls",
         "emmet_ls",
         "prismals",
         "pyright",

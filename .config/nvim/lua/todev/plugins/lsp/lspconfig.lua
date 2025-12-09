@@ -102,6 +102,11 @@ return {
       filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "svelte" },
     })
 
+    vim.lsp.config("gopls", {
+      cmd = { "gopls" },
+      filetypes = { "go", "gomod", "gowork", "gotmpl" },
+    })
+
     vim.lsp.config("lua_ls", {
       settings = {
         Lua = {
