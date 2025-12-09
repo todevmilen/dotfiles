@@ -1,4 +1,4 @@
-require("josean.core")
-require("josean.lazy")
+require("todev.core")
+require("todev.lazy")
 
 vim.lsp.enable("gopls")
